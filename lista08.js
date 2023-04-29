@@ -1,0 +1,10 @@
+let num1=Number(prompt("Digite o primeiro número"));
+let num2=Number(prompt("Digite o segundo número"));
+let soma=num1+num2;
+let subtracao=num1-num2;
+let multiplicacao=num1*num2;
+let divisao=num1/num2;
+document.write(`A soma de ${num1} + ${num1} = ${soma} <br>`);
+document.write(`A subtração de ${num1} - ${num1} = ${subtracao} <br>`);
+document.write(`A multiplicação de ${num1} x ${num1} = ${multiplicacao} <br>`);
+document.write(`A divisão de ${num1} / ${num1} = ${divisao} <br>`);
